@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>katalon_test</name>
+   <name>katalon-webui-project</name>
    <tag></tag>
-   <UUID>ddeadc4a-f6e4-4d3e-8876-80708076c17a</UUID>
+   <UUID>f7ec26b0-325d-43cf-872e-b343779708f1</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
@@ -24,5 +24,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <type>WEBSERVICE</type>
+   <type>WEBUI</type>
 </Project>

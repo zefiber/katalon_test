@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-TS_RegressionTest,,,,2019-05-04 13:56:59,2019-05-04 13:57:02,2.564s,FAILED
-,,,,,,,
-Test Cases/buyItem,,,,2019-05-04 13:57:00,2019-05-04 13:57:01,1.814s,FAILED
-"openBrowser("""")",,,,2019-05-04 13:57:01,2019-05-04 13:57:01,0.646s,FAILED

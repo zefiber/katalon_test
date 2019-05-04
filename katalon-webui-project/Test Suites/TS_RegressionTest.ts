@@ -9,9 +9,9 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>38d68816-a2a3-426b-bd49-3644a9ff46d5</testSuiteGuid>
+   <testSuiteGuid>bf132f54-38a7-4e1a-a12f-84ac15904706</testSuiteGuid>
    <testCaseLink>
-      <guid>4fd9afa8-8d3d-458b-8fe3-fe536fdd9dab</guid>
+      <guid>b40463d2-08c6-46c0-955e-d973d3ff80a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/buyItem</testCaseId>
