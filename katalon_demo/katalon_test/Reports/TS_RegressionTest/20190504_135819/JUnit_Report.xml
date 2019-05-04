@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="18" tests="1" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="1" failures="0" errors="0" time="18" timestamp="2019-05-04 13:58:23" hostname="zefiber - localhost" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/zefiber/katalon_test/katalon_demo/katalon_test/Reports/TS_RegressionTest/20190504_135819"/>
+         <property name="logFiles" value="/Users/zefiber/katalon_test/katalon_demo/katalon_test/Reports/TS_RegressionTest/20190504_135819/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="zefiber - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="77c186f6c788653131d4beb32bbb196d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/buyItem" classname="Test Cases/buyItem" status="PASSED">
+         <system-out><![CDATA[2019-05-04 13:58:23 - [TEST_CASE][PASSED] - Test Cases/buyItem: Test Cases/buyItem
+
+2019-05-04 13:58:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-04 13:58:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-04 13:58:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-04 13:58:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-04 13:58:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.canadapost.ca/cpc/en/home.page"): Navigate to 'https://www.canadapost.ca/cpc/en/home.page' successfully
+
+2019-05-04 13:58:32 - [MESSAGE][PASSED] - Navigate to 'https://www.canadapost.ca/cpc/en/home.page' successfully
+
+2019-05-04 13:58:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/testHomePage/Page_Mailing and shipping for Personal and Business  Canada Post/a_English")): Object: 'Object Repository/testHomePage/Page_Mailing and shipping for Personal and Business  Canada Post/a_English' is clicked on
+
+2019-05-04 13:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/testHomePage/Page_Mailing and shipping for Personal and Business  Canada Post/a_English' is clicked on
+
+2019-05-04 13:58:33 - [TEST_STEP][PASSED] - scrollToPosition(500, 1500): Browser is scrolled to position x = 500, y = 1500
+
+2019-05-04 13:58:33 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 1500
+
+2019-05-04 13:58:33 - [TEST_STEP][PASSED] - to = new com.kms.katalon.core.testobject.TestObject(): null
+
+2019-05-04 13:58:33 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, "//a[contains(text(),'online Shop')]"): null
+
+2019-05-04 13:58:33 - [TEST_STEP][PASSED] - click(to): Object: '' is clicked on
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, "//a[contains(text(),'I understand')]"): null
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - if (verifyElementPresent(to, 5)): Object: '' is clicked on
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Object '' is present
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - click(to): Object: '' is clicked on
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, "//div[@id='featuredProductsDiv']/h2/strong"): null
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - scrollToElement(to, 3): Scroll to object '' successfully
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, "//a[@onclick='addToShoppingCart(414112111);']"): null
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - click(to): Object: '' is clicked on
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - waitForPageLoad(2): Wait for page load successfully
+
+2019-05-04 13:58:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-04 13:58:36 - [TEST_STEP][PASSED] - click(to): Object: '' is clicked on
+
+2019-05-04 13:58:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2019-05-04 13:58:38 - [TEST_STEP][PASSED] - to.addProperty("xpath", EQUALS, "//div[@id='mainNav']/div/div/div/section/ul/li[4]/a/span"): null
+
+2019-05-04 13:58:38 - [TEST_STEP][PASSED] - scrollToPosition(500, 0): Browser is scrolled to position x = 500, y = 0
+
+2019-05-04 13:58:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 500, y = 0
+
+2019-05-04 13:58:38 - [TEST_STEP][PASSED] - click(to): Object: '' is clicked on
+
+2019-05-04 13:58:41 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-04 13:58:23 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/buyItem]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

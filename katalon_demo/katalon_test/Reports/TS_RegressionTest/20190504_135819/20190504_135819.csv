@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 73.0.3683.103,,,2019-05-04 13:58:23,2019-05-04 13:58:42,18.976s,PASSED
+,,,,,,,
+Test Cases/buyItem,Chrome 73.0.3683.103,,,2019-05-04 13:58:23,2019-05-04 13:58:41,18.180s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-05-04 13:58:24,2019-05-04 13:58:29,4.627s,PASSED
+"navigateToUrl(""https://www.canadapost.ca/cpc/en/home.page"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:29,2019-05-04 13:58:32,3.525s,PASSED
+"click(findTestObject(""Object Repository/testHomePage/Page_Mailing and shipping for Personal and Business  Canada Post/a_English""))",Chrome 73.0.3683.103,,,2019-05-04 13:58:32,2019-05-04 13:58:33,0.603s,PASSED
+"scrollToPosition(500, 1500)",Chrome 73.0.3683.103,,,2019-05-04 13:58:33,2019-05-04 13:58:33,0.056s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(),Chrome 73.0.3683.103,,,2019-05-04 13:58:33,2019-05-04 13:58:33,0.013s,PASSED
+"to.addProperty(""xpath"", EQUALS, ""//a[contains(text(),'online Shop')]"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:33,2019-05-04 13:58:33,0.011s,PASSED
+click(to),Chrome 73.0.3683.103,,,2019-05-04 13:58:33,2019-05-04 13:58:36,2.749s,PASSED
+"to.addProperty(""xpath"", EQUALS, ""//a[contains(text(),'I understand')]"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.001s,PASSED
+"if (verifyElementPresent(to, 5))",Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.224s,PASSED
+"to.addProperty(""xpath"", EQUALS, ""//div[@id='featuredProductsDiv']/h2/strong"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.001s,PASSED
+"scrollToElement(to, 3)",Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.070s,PASSED
+"to.addProperty(""xpath"", EQUALS, ""//a[@onclick='addToShoppingCart(414112111);']"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.001s,PASSED
+click(to),Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.230s,PASSED
+waitForPageLoad(2),Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:36,0.106s,PASSED
+click(to),Chrome 73.0.3683.103,,,2019-05-04 13:58:36,2019-05-04 13:58:38,1.860s,PASSED
+"to.addProperty(""xpath"", EQUALS, ""//div[@id='mainNav']/div/div/div/section/ul/li[4]/a/span"")",Chrome 73.0.3683.103,,,2019-05-04 13:58:38,2019-05-04 13:58:38,0.001s,PASSED
+"scrollToPosition(500, 0)",Chrome 73.0.3683.103,,,2019-05-04 13:58:38,2019-05-04 13:58:38,0.026s,PASSED
+click(to),Chrome 73.0.3683.103,,,2019-05-04 13:58:38,2019-05-04 13:58:41,3.179s,PASSED
